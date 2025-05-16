@@ -7,6 +7,10 @@
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
+body,h1,h2,h3,h4,h6,h5,li,a {
+  font-family: 'Tajawal', sans-serif !important;
+}
+
 html[dir="rtl"] #navLinks {
     margin-left: auto !important;
     margin-right: 0 !important;
