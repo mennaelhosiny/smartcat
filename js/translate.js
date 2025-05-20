@@ -147,7 +147,17 @@ const translations = {
       service_data_management: "Data Management",
       contact_info: "Contact Info",
       email: "info@smartcart.sa",
-      phone: "+966-11 217 5930"
+      phone: "+966-11 217 5930",
+       send_message_title: "Send Your Message",
+    contact_form_info:
+      "The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.",
+    download_now: "Download Now",
+    your_email: "Your Email",
+    subject: "Subject",
+    message: "Message",
+    send_message_button: "Send Message",
+    telephone: "Telephone",
+    phone_number: "(+966) 3456 7890 123"
   },
   ar: {
     brand: "كونسترا",
@@ -268,7 +278,17 @@ const translations = {
       service_data_management: "إدارة البيانات",
       contact_info: "معلومات التواصل",
       email: "info@smartcart.sa",
-      phone: "+966-11 217 5930"
+      phone: "+966-11 217 5930",
+       send_message_title: "أرسل رسالتك",
+    contact_form_info:
+      "نموذج الاتصال غير مفعل حالياً. يمكنك الحصول على نموذج فعال يعمل بـ Ajax و PHP في دقائق. فقط انسخ الملفات، أضف بعض الشيفرة، وتم الأمر.",
+    download_now: "حمّل الآن",
+    your_email: "بريدك الإلكتروني",
+    subject: "الموضوع",
+    message: "الرسالة",
+    send_message_button: "أرسل الرسالة",
+    telephone: "الهاتف",
+    phone_number: "(+966) 3456 7890 123"
   } 
   
 };

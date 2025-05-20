@@ -47,54 +47,56 @@
 
 
         <!-- Navbar & Hero Start -->
-         <div class="container-fluid sticky-top px-0">
+        <div class="container-fluid sticky-top px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
-  <a href="index.html" class="navbar-brand p-0">
-    <div class="">
-      <img src="img/Logo-1.png" alt="" srcset="" style="height: 70px;">
+            <a href="index.html" class="navbar-brand p-0">
+                <div class="">
+                    <img src="img/Logo-1.png" alt="" srcset="" style="height: 70px;">
+
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
+                    <a href="service.html" class="nav-item nav-link" data-i18n="services">Services</a>
+
+                    <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
+
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                            data-i18n="pages">Pages</a>
+                        <div class="dropdown-menu m-lg-0">
+                            <a href="feature.html" class="dropdown-item" data-i18n="features">Our Features</a>
+                            <a href="blog.html" class="dropdown-item" data-i18n="blog">Our Blog</a>
+                            <a href="team.html" class="dropdown-item" data-i18n="team">Our Team</a>
+                            <a href="testimonial.html" class="dropdown-item" data-i18n="testimonial">Testimonial</a>
+                            <a href="404.html" class="dropdown-item" data-i18n="errorPage">404 Page</a>
+                        </div>
+                    </div> -->
+
+                    <a href="contact.html" class="nav-item nav-link" data-i18n="contact">Contact</a>
+                </div>
+
+                <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-3 gap-3">
+
+
+                    <div class="dropdown">
+                        <button id="languageToggle" class="btn btn-secondary py-2 px-2"
+                            style="min-width: 100px;">عربي</button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#" data-lang="en">English</a>
+                            <a class="dropdown-item" href="#" data-lang="ar">العربية</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
     </div>
-  </a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-    <span class="fa fa-bars"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <div class="navbar-nav ms-auto pt-2 pt-lg-0">
-      <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
-      <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
-      <a href="service.html" class="nav-item nav-link" data-i18n="services">Services</a>
-      <a href="project.html" class="nav-item nav-link" data-i18n="projects">Projects</a>
-
-      <div class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="pages">Pages</a>
-        <div class="dropdown-menu m-lg-0">
-          <a href="feature.html" class="dropdown-item" data-i18n="features">Our Features</a>
-          <a href="blog.html" class="dropdown-item" data-i18n="blog">Our Blog</a>
-          <a href="team.html" class="dropdown-item" data-i18n="team">Our Team</a>
-          <a href="testimonial.html" class="dropdown-item" data-i18n="testimonial">Testimonial</a>
-          <a href="404.html" class="dropdown-item" data-i18n="errorPage">404 Page</a>
-        </div>
-      </div>
-
-      <a href="contact.html" class="nav-item nav-link" data-i18n="contact">Contact</a>
-    </div>
-
-    <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-3 gap-3">
-     
-
-      <div class="dropdown">
-        <button id="languageToggle" class="btn btn-secondary py-2 px-4" style="min-width: 100px;">عربي</button>
-        <div class="dropdown-menu dropdown-menu-end">
-          <a class="dropdown-item" href="#" data-lang="en">English</a>
-          <a class="dropdown-item" href="#" data-lang="ar">العربية</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
-
-        </div>
         <!-- Navbar & Hero End -->
 
        
@@ -109,76 +111,62 @@
         <!-- Header End -->
 
         <!-- Contact Start -->
-        <div class="container-fluid contact bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5 mb-5">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                            <p class="text-uppercase text-secondary fs-5 mb-0">Let’s Connect</p>
-                            <h2 class="display-4 text-capitalize mb-3">Send Your Message</h2>
-                            <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                        </div>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                                        <label for="phone">Your Phone</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="project" placeholder="Project">
-                                        <label for="project">Your Project</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating border border-secondary">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                   
-                </div>
-                <div class="row g-5">
-                   
-                   
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="d-inline-flex bg-white w-100 border border-secondary p-4">
-                            <i class="fa fa-phone-alt fa-2x text-secondary me-4"></i>
-                            <div>
-                                <h4>Telephone</h4>
-                                <p class="mb-0">(+012) 3456 7890 123</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container-fluid contact bg-light py-5">
+  <div class="container py-5">
+    <div class="row g-5 mb-5">
+      <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+          <h2 class="display-4 text-capitalize mb-3" data-i18n="send_message_title">Send Your Message</h2>
+          <!-- <p class="mb-0" data-i18n="contact_form_info">
+            The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes.
+            Just copy and paste the files, add a little code and you're done.
+            <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form" data-i18n="download_now">Download Now</a>.
+          </p> -->
         </div>
+        <form>
+          <div class="row g-3">
+            <div class="col-lg-12">
+              <div class="form-floating border border-secondary">
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                <label for="email" data-i18n="your_email">Your Email</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-floating border border-secondary">
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                <label for="subject" data-i18n="subject">Subject</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-floating border border-secondary">
+                <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                <label for="message" data-i18n="message">Message</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary w-100 py-3" data-i18n="send_message_button">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-6 wow fadeInLeft">
+        <img src="img/feature.png" alt="" srcset="">
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="d-inline-flex bg-white w-100 border border-secondary p-4">
+          <i class="fa fa-phone-alt fa-2x text-secondary me-4"></i>
+          <div>
+            <h4 data-i18n="telephone">Telephone</h4>
+            <p class="mb-0" data-i18n="phone_number">(+012) 3456 7890 123</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
         <!-- Contact End -->
 
         <!-- Footer Start -->
