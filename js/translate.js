@@ -316,6 +316,16 @@ function setLanguage(lang) {
   // تغيير اتجاه الصفحة
   document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
   document.documentElement.setAttribute("lang", lang);
+const currentLang = localStorage.getItem("i18n-data") || "en"; // حسب مكتبتك
+const isRTL = currentLang === "ar";
+
+// حدد جميع الحقول التي تريد تغيير اتجاهها
+const inputs = document.querySelectorAll('input, textarea');
+
+inputs.forEach(input => {
+  input.style.direction = isRTL ? 'rtl' : 'ltr';
+  input.style.textAlign = isRTL ? 'right' : 'left';
+});
 
   // تغيير الكلاسات للمسافات حسب اللغة
   const marginSwitchElements = document.querySelectorAll(".ms-3, .me-3, .ps-3, .pe-3, .ms-auto, .me-auto");

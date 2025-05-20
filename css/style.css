@@ -927,7 +927,23 @@ h1{
     h2{
         font-size: 25px !important;
     }
+    .contactus img{
+   width: 200px;
 }
+}
+/* Default LTR: label on the left */
+.form-floating > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* RTL support: move label to the right */
+:dir(rtl) .form-floating > label {
+  left: auto;
+  right: 0;
+}
+
 /*** testimonial End ***/
 
 /*** Contact Start ***/
