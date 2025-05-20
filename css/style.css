@@ -920,6 +920,12 @@ h1{
     .testimonial .owl-nav .owl-next {
         top: -30px;
     }
+    h1{
+        font-size: 30px !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
 }
 /*** testimonial End ***/
 
