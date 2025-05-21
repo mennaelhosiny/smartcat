@@ -56,9 +56,17 @@ const translations = {
   "title_of_ai": "AI & Software Development",
   "desc_of_ai": "Custom apps, web/mobile solutions, code audits, AI products, IoT & NLP systems.",
 
-  "title_of_cloud": "Cloud & Data Solutions",
-  "desc_of_cloud": "Big Data, Hadoop, Spark, dashboards, predictive models, and business intelligence tools.",
+  "title_of_cloud": "Data Management & Cloud Solutions",
+      "desc_of_cloud": `Data Management:
+- Data analytics tools and dashboards
+- Big data using Hadoop, Spark, or SQL
+- Predictive models
+- Business intelligence
+- Big data analytics
 
+Cloud Solutions:
+- Data consulting & strategy
+- AI-powered cloud solutions`,
   "text_of_read_more_btn": "Read More",
  "completed_projects": "Completed Projects",
   "happy_customers": "Happy Customers",
@@ -130,6 +138,11 @@ const translations = {
   "client_profession_1": "Marketing Manager",
   "client_profession_2": "Entrepreneur",
   "client_profession_3": "Graphic Designer",
+   "tech_title": "Technologies We Rely On",
+      "tech_desc": `- Programming languages: Python, JavaScript, Java, PHP
+- Frameworks: React, Angular, Django
+- Cloud platforms: AWS, Google Cloud, Microsoft Azure
+- Analytics tools: Tableau, Power BI, Google Analytics`,
       subtitle: "Newsletter",
       title: "Be the first to get the latest news and exclusive updates directly in your inbox.",
       explore: "Explore",
@@ -207,7 +220,7 @@ const translations = {
      "title_of_services_section": "خدماتنا",
   "subtitle_of_services_section": "حلول رقمية متقدمة",
 
-  "title_of_erp": "أنظمة تخطيط الموارد",
+  "title_of_erp": "  أنظمة تخطيط المواردالمؤسسة",
   "desc_of_erp": "أوراكل – أودو – دايناميكس 365 – تكامل واجهات البرمجة وحلول ERP المخصصة.",
 
   "title_of_rpa": "أتمتة العمليات الروبوتية",
@@ -216,9 +229,23 @@ const translations = {
   "title_of_ai": "الذكاء الاصطناعي وتطوير البرمجيات",
   "desc_of_ai": "تطبيقات مخصصة، حلول ويب/موبايل، مراجعة الأكواد، منتجات AI، IoT و NLP.",
 
-  "title_of_cloud": " إدارة البيانات والحلول السحابية",
-  "desc_of_cloud": "بيانات ضخمة، Hadoop، Spark، لوحات تحكم، نماذج تنبؤية، وأدوات ذكاء أعمال.",
+  "title_of_cloud": "إدارة البيانات والحلول السحابية",
+      "desc_of_cloud": `إدارة البيانات:
+- أدوات تحليل البيانات وDashboard
+- البيانات الضخمة باستخدام Hadoop أو Spark أو SQL
+- النماذج التنبؤية
+- ذكاء الأعمال
+- تحليلات البيانات الضخمة
 
+الحلول السحابية:
+- الاستشارات في البيانات واستراتيجيات البيانات
+- الحلول السحابية المدعومة بالذكاء الاصطناعي`,
+ "tech_title": "تقنيات التطوير التي نعتمد عليها",
+      "tech_desc": `- لغات البرمجة: Python، JavaScript، Java، PHP\n
+     
+- أُطُر العمل: React، Angular، Django
+- المنصات السحابية: أمازون، جوجل كلاود، مايكروسوفت Azure
+- أدوات التحليل: Tableau، Power BI، تحليلات جوجل`,
   "text_of_read_more_btn": "اقرأ المزيد",
  
    "completed_projects": "المشاريع المنجزة",
@@ -228,8 +255,6 @@ const translations = {
   "join_with_us_btn": "انضم إلينا",
   "industries_title": "القطاعات التي نخدمها",
   "industries_desc": "الرعاية الصحية، الترفيه، المال والأعمال، التجزئة، الرياضة، الخدمات اللوجستية.",
-  "tech_title": "تقنيات التطوير التي نعتمد عليها",
-  "tech_desc": "Python، JavaScript، React، Angular، AWS، GCP، Azure، Tableau، Power BI.",
    "team_section_title": "فريقنا",
     "team_section_desc": "يتكون فريقنا من خبراء متعددي التخصصات يعملون معًا لتقديم حلول مبتكرة تحقق أهداف عملائنا، مما يضمن نجاح مشاريعنا وتحقيق أهداف العملاء.",
     "team_exec_title": "المدراء التنفيذيون",
