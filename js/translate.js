@@ -185,6 +185,15 @@ Cloud Solutions:
     "ourValues-growth-title": "Growth",
     "ourValues-growth-desc": "We are committed to achieving real growth impact in every project we undertake.",
 
+  "journey-step1-desc": "Developing a comprehensive strategy aligned with your company's goals.",
+  "journey-step2-desc": "Smart solutions... for a sustainable future",
+  "journey-step3-desc": "Creating an action plan based on best practices for growth.",
+  "journey-step4-desc": "Leveraging multiple platforms to enhance value and improve outcomes.",
+  "journey-step5-desc": "Using data to create personalized experiences and precise goals.",
+  "journey-step6-desc": "Designing seamless user experiences across all digital platforms.",
+  "journey-step7-desc": "Continuously optimizing strategies to ensure long-term success.",
+  "journey-step8-desc": "Employing AI and machine learning to model sustainable solutions.",
+  "journey-step9-desc": "Smart solutions... for a sustainable future",
 
 
 
@@ -216,7 +225,7 @@ Cloud Solutions:
     description3: "المساهمة في الاقتصاد الرقمي السعودي من خلال الابتكار والاستفادة من البيانات.",
     company: "  ﻋــﻦ ﺳﻤـﺎرت ﻛـﺎت ",
     vision: "نجعل رؤيتك حقيقة من الأساسيات.",
-    description4: "  ﺳﻤﺎرت ﻛﺎت ﻫﻲ ﺷﺮﻛﺔ ﺳﻌﻮدﻳﺔ ﺗﺄﺳﺴﺖ ﺑﺨﺒﺮة ﺗﺰﻳﺪ ﻋﻦ 10 سنوات في مجال اﻟﺤﻠﻮل اﻟﺮﻗﻤﻴﺔ، وﺗﻬﺪف إﻟﻰ اﻟﻤﺴﺎﻫﻤﺔ ﻓﻲ ﺗﺤﻘﻴﻖ أﺛﺮ إﻳﺠﺎﺑﻲ ﻓﻲ اﻻﻗﺘﺼﺎد اﻟﺮﻗﻤﻲ اﻟﺴﻌﻮدي.  ﺣﻠﻮل ",
+    description4: "  ﺳﻤﺎرت ﻛﺎت ﻫﻲ ﺷﺮﻛﺔ ﺳﻌﻮدﻳﺔ ﺗﺄﺳﺴﺖ ﺑﺨﺒﺮة ﺗﺰﻳﺪ ﻋﻦ 10 سنوات في مجال اﻟﺤﻠﻮل اﻟﺮﻗﻤﻴﺔ، وﺗﻬﺪف إﻟﻰ اﻟﻤﺴﺎﻫﻤﺔ ﻓﻲ ﺗﺤﻘﻴﻖ أﺛﺮ إﻳﺠﺎﺑﻲ ﻓﻲ اﻻﻗﺘﺼﺎد اﻟﺮﻗﻤﻲ اﻟﺴﻌﻮدي.   ",
     qualityStandards: "بناء معايير الجودة",
     engineersTeam: "فريق مهندسين معتمدين",
     satisfaction: "رضا العملاء 100%",
@@ -346,6 +355,18 @@ Cloud Solutions:
 
     "ourValues-growth-title": "النمو",
     "ourValues-growth-desc": "نلتزم بتحقيق تأثير نمو حقيقي في كل مشروع ننفذه.",
+  
+  "journey-step1-desc": "تطوير استراتيجية متكاملة تتماشى مع أهداف شركتك.",
+  "journey-step2-desc": "حلول ذكية .. لمستقبل مستدام",
+  "journey-step3-desc": "وضع خطة عمل مبنية على أفضل الممارسات للتوسع.",
+  "journey-step4-desc": "استخدام منصات متعددة لتعزيز القيمة وتحسين النتائج.",
+  "journey-step5-desc": "الاستفادة من البيانات لإنشاء تجارب مخصصة وأهداف دقيقة.",
+  "journey-step6-desc": "تصميم تجارب مستخدمين سلسة عبر كافة المنصات الرقمية.",
+  "journey-step7-desc": "التحسين المستمر للإستراتيجيات لضمان النجاح طويل المدى.",
+  "journey-step8-desc": "توظيف الذكاء الاصطناعي والتعلم الآلي لنمذجة حلول مستدامة.",
+  "journey-step9-desc": "حلول ذكية .. لمستقبل مستدام"
+
+
   }
 
 };

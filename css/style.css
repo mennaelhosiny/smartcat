@@ -911,106 +911,165 @@ h1{
   }
 }
 
-/* our-trip */
+/* رحله  */
+.timeline-wrapper {
+    background: linear-gradient(rgba(0, 18, 72, 0.9), rgba(0, 22, 89, 1)), url(../img/2.webp);
+  padding: 60px 20px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 2.5rem;
+  color: #dc383d; /* لون العنوان */
+}
 
 .timeline {
-      position: relative;
-      padding: 60px 0;
-    }
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
-    .timeline-step {
-      position: relative;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      margin-bottom: 40px;
-    }
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: rgba(220, 56, 61, 0.5); /* شريط الزمن بلون أحمر شفاف */
+  transform: translateX(-50%);
+  z-index: 0;
+}
 
-    .timeline-step:last-child {
-      margin-bottom: 0;
-    }
+.timeline-item {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin: 60px 0;
+  z-index: 1;
+}
 
-    .timeline-step:nth-child(even) {
-      flex-direction: row-reverse;
-    }
+.timeline-item.left {
+  justify-content: flex-start;
+}
 
-    .timeline-content {
-      background-color: #dc3545;
-      color: #fff;
-      padding: 20px 25px;
-      border-radius: 15px;
-      width: 45%;
-      z-index: 2;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      position: relative;
-    }
+.timeline-item .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
 
-    .timeline-circle {
-      width: 20px;
-      height: 20px;
-      background-color: #001659;
-      border-radius: 50%;
-      border: 4px solid white;
-      position: absolute;
-      right: 50%;
-      transform: translate(50%, -50%);
-      top: 50%;
-      z-index: 3;
-    }
+.timeline-item.left .content {
+  flex-direction: row-reverse;
+}
 
-    /* منحنى بين كل نقطة */
-    .timeline-step::before {
-      content: "";
-      position: absolute;
-      width: 60px;
-      height: 60px;
-      border: 4px solid #001659;
-      border-top: none;
-      border-left: none;
-      border-radius: 0 0 60px 0;
-      top: 50%;
-      right: 50%;
-      transform: translate(50%, -50%) rotate(0deg);
-      z-index: 1;
-    }
+/* العقد الزمنية */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #dc383d;
+  border-radius: 50%;
+  z-index: 0;
+  background-color: #001659; /* دمج مع الخلفية */
+}
 
-    .timeline-step:nth-child(even)::before {
-      right: auto;
-      left: 50%;
-      border-right: none;
-      border-left: 4px solid #001659;
-      border-radius: 0 0 0 60px;
-      transform: translate(-50%, -50%) rotate(0deg);
-    }
+.timeline-item.right::before {
+  left: 50%;
+  border-left: none;
+  border-bottom: none;
+  transform: translateX(-50%) rotate(-45deg);
+}
 
-    @media (max-width: 768px) {
-      .timeline-step {
-        flex-direction: column !important;
-        text-align: center;
-      }
+.timeline-item.left::before {
+  right: 50%;
+  border-right: none;
+  border-bottom: none;
+  transform: translateX(50%) rotate(45deg);
+}
 
-      .timeline-content {
-        width: 90%;
-        margin-bottom: 20px;
-      }
+.iconn {
+  width: 50px;
+  height: 50px;
+  background: #dc383dc4; 
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
 
-      .timeline-circle {
-        right: 50%;
-        transform: translate(50%, -50%);
-      }
+.text-box {
+  background: #fff;
+  color: #001659;
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  box-shadow: 0 4px 15px rgba(220, 56, 61, 0.2);
+  z-index: 2;
+}
 
-      .timeline-step::before,
-      .timeline-step:nth-child(even)::before {
-        display: none;
-      }
-    }
+@media (max-width: 768px) {
+  .timeline-item {
+    justify-content: center;
+  }
 
-    h2.title {
-      color: #001659;
-      text-align: center;
-      margin-bottom: 60px;
-      font-weight: bold;
-    }
+  .timeline-item .content {
+    flex-direction: row; /* ✅ أيقونة بجانب النص */
+    align-items: center;
+    text-align: start;
+    gap: 15px;
+  }
+
+  .timeline-item.left .content,
+  .timeline-item.right .content {
+    flex-direction: row; /* ✅ نفس الترتيب للجميع */
+  }
+
+  .timeline-item::before {
+    display: none;
+  }
+
+  .text-box {
+    background: #fff;
+    color: #001659;
+    padding: 15px 20px;
+    border-radius: 12px;
+    max-width: 90%;
+    font-size: 1rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 15px rgba(220, 56, 61, 0.2);
+  }
+
+  .iconn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.8rem;
+    background: #dc383dc4;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+
+
+
 
 .blog .blog-item .blog-img img {
     transition: 0.5s;
@@ -1045,7 +1104,9 @@ h1{
     transition: 0.5s;
     border-radius: 30px;
 }
-
+.testimonial-item{
+    border-radius: 30px;
+}
 .testimonial .owl-nav .owl-prev:hover {
     background: var(--bs-secondary);
     color: var(--bs-white);
