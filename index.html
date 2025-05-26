@@ -46,14 +46,12 @@
   <!-- Spinner End -->
 
 
-
-
   <!-- Navbar & Hero Start -->
   <div class="container-fluid sticky-top px-0">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light  px-4">
       <a href="index.html" class="navbar-brand p-0">
         <div class="">
-          <img src="img/Logo-1.png" alt="" srcset="" style="height: 70px;">
+          <img src="img/Logo-1.png" alt="" srcset="" style="height: 80px;">
 
         </div>
       </a>
@@ -68,11 +66,12 @@
           <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
 
           <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="services">Service</a>
+            <a href="project.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="services">Service</a>
             <div class="dropdown-menu m-lg-0">
-              <a href="feature.html" class="dropdown-item" data-i18n="features">Our Features</a>
-              <a href="blog.html" class="dropdown-item" data-i18n="blog">Our Blog</a>
-              <a href="team.html" class="dropdown-item" data-i18n="team">Our Team</a>
+              <a href="project.html" class="dropdown-item text-center" data-i18n="services">Our Blog</a>
+              <a href="erp.html" class="dropdown-item text-center" data-i18n="services_section-service1-title">Our Features</a>
+              <a href="ai.html" class="dropdown-item text-center" data-i18n="services_section-service2-title">Our Blog</a>
+              <a href="cloud.html" class="dropdown-item text-center" data-i18n="services_section-service3-title">Our Team</a>
             </div>
           </div>
 
@@ -103,7 +102,7 @@
 
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img src="img/1.jpg" class="img-fluid w-100" alt="First slide" />
+          <img src="img/3.jpg" class="img-fluid w-100" alt="First slide" />
           <div class="carousel-caption text-center">
             <!-- <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated"
                             data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" data-i18n="subtitle">
@@ -111,12 +110,12 @@
                         </p> -->
 
             <h1 class="display-1 text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s"
-              style="animation-delay: 1.3s;" data-i18n="title">
+              style="animation-delay: 1.3s;" data-i18n="title2">
               Empowering Digital Innovation for a Smarter Future
             </h1>
 
-            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
-              style="animation-delay: 1.5s;" data-i18n="description">
+            <p class="mb-5 fs-5 fadeInUp animate__animated mx-auto" data-animation="fadeInUp" data-delay="1.5s"
+              style="animation-delay: 1.5s; max-width: 600px; text-align: center;" data-i18n="description2">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             </p>
 
@@ -174,49 +173,78 @@
   </div>
 
   <!-- About End -->
- <section class="our-values">
-  <div class="container">
-    <div class="right-section">
-      <h2 data-i18n="ourValues-title">قيمنا</h2>
-    </div>
+  
+<div class="container-fluid counter py-5">
+     <h2 class="display-4 text-capitalize mb-3 text-center" data-i18n="ourValues-title">
+          We are committed to staying up to date with the latest technological developments and industry best practices.
+        </h2>
+  <div class="container py-5">
+    <div class="row g-4">
 
-    <div class="divider-line"></div>
-
-    <div class="left-section">
-      <div class="value-item">
-        <div class="iconn"><i class="fas fa-paper-plane"></i></div>
-        <div class="text">
-          <h3 data-i18n="ourValues-exploration-title">الاستطلاع</h3>
-          <p data-i18n="ourValues-exploration-desc">نبحث عن أفضل الحلول المخصصة لتحقيق أهداف عملائنا.</p>
+      <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="counter-box">
+          <div class="counter-item">
+            <div class="counter-item-style"></div>
+            <div class="counter-item-inner p-5">
+              <i class="fas fa-paper-plane fa-4x text-secondary"></i>
+              <h4 class="text-dark my-4" data-i18n="ourValues-exploration-title">الاستطلاع</h4>
+              <p class="mb-0 text-muted" data-i18n="ourValues-exploration-desc">
+                نبحث عن أفضل الحلول المخصصة لتحقيق أهداف عملائنا.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="value-item">
-        <div class="iconn"><i class="fas fa-bullseye"></i></div>
-        <div class="text">
-          <h3 data-i18n="ourValues-development-title">التطوير</h3>
-          <p data-i18n="ourValues-development-desc">تقييمات مستمرة لتقديم حلول أكثر فاعلية.</p>
+      <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="counter-box">
+          <div class="counter-item">
+            <div class="counter-item-style"></div>
+            <div class="counter-item-inner p-5">
+              <i class="fas fa-bullseye fa-4x text-secondary"></i>
+              <h4 class="text-dark my-4" data-i18n="ourValues-development-title">التطوير</h4>
+              <p class="mb-0 text-muted" data-i18n="ourValues-development-desc">
+                تقييمات مستمرة لتقديم حلول أكثر فاعلية.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="value-item">
-        <div class="iconn"><i class="fas fa-lightbulb"></i></div>
-        <div class="text">
-          <h3 data-i18n="ourValues-innovation-title">الابتكار</h3>
-          <p data-i18n="ourValues-innovation-desc">نحن نمد حدود الإبداع إلى حلول مبتكرة.</p>
+      <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="counter-box">
+          <div class="counter-item">
+            <div class="counter-item-style"></div>
+            <div class="counter-item-inner p-5">
+              <i class="fas fa-lightbulb fa-4x text-secondary"></i>
+              <h4 class="text-dark my-4" data-i18n="ourValues-innovation-title">الابتكار</h4>
+              <p class="mb-0 text-muted" data-i18n="ourValues-innovation-desc">
+                نحن نمد حدود الإبداع إلى حلول مبتكرة.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="value-item">
-        <div class="iconn"><i class="fas fa-chart-line"></i></div>
-        <div class="text">
-          <h3 data-i18n="ourValues-growth-title">النمو</h3>
-          <p data-i18n="ourValues-growth-desc">نلتزم بتحقيق تأثير نمو حقيقي في كل مشروع ننفذه.</p>
+      <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="counter-box">
+          <div class="counter-item">
+            <div class="counter-item-style"></div>
+            <div class="counter-item-inner p-5">
+              <i class="fas fa-chart-line fa-4x text-secondary"></i>
+              <h4 class="text-dark my-4" data-i18n="ourValues-growth-title">النمو</h4>
+              <p class="mb-0 text-muted" data-i18n="ourValues-growth-desc">
+                نلتزم بتحقيق تأثير نمو حقيقي في كل مشروع ننفذه.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
-</section>
+</div>
+
 
 
   <!-- Blog Start -->
@@ -371,171 +399,9 @@
 </div>
 
 
-
-
   <!-- end trip -->
 
-  <!-- Features Start -->
-  <!-- <div class="container-fluid feature bg-light py-5">
-    <div class="container py-5">
-        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h2 class="display-4 text-capitalize mb-3" data-i18n="whyUsTitle">Why Choose Us</h2>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="feature-item text-center border p-4 h-100">
-                    <div class="feature-img bg-secondary d-inline-flex p-4">
-                        <i class="fas fa-globe text-primary fa-3x"></i>
-                    </div>
-                    <h4 class="my-3" data-i18n="globalExperienceTitle">Global Experience</h4>
-                    <p class="mb-0" data-i18n="globalExperienceDesc">
-                        We have a proven track record of successful big data and AI projects executed for companies across the globe.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="feature-item text-center border p-4 h-100">
-                    <div class="feature-img bg-secondary d-inline-flex p-4">
-                        <i class="fas fa-bullseye text-primary fa-3x"></i>
-                    </div>
-                    <h4 class="my-3" data-i18n="valueForResultsTitle">Value for Results</h4>
-                    <p class="mb-0" data-i18n="valueForResultsDesc">
-                        Our specialized team ensures you receive precise and effective solutions that achieve the results you desire.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="feature-item text-center border p-4 h-100">
-                    <div class="feature-img bg-secondary d-inline-flex p-4">
-                        <i class="fas fa-handshake text-primary fa-3x"></i>
-                    </div>
-                    <h4 class="my-3" data-i18n="flexibleTermsTitle">Flexible Collaboration Terms</h4>
-                    <p class="mb-0" data-i18n="flexibleTermsDesc">
-                        We believe in offering flexible collaboration models and fixed pricing that suit your project needs to ensure the best experience.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="feature-item text-center border p-4 h-100">
-                    <div class="feature-img bg-secondary d-inline-flex p-4">
-                        <i class="fas fa-check-circle text-primary fa-3x"></i>
-                    </div>
-                    <h4 class="my-3" data-i18n="highQualityTitle">High-Quality Results</h4>
-                    <p class="mb-0" data-i18n="highQualityDesc">
-                        We always focus on delivering tangible outcomes through customized solutions that meet the unique challenges of our clients.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 
-  <!-- Features End -->
-
-
-
-
-  
-
-  <!-- Projects Start -->
-  <!-- <div class="container-fluid project py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <p class="text-uppercase text-secondary fs-5 mb-0">Our Projects</p>
-                <h2 class="display-4 text-capitalize mb-3">Recent Completed Projects</h2>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="project-item">
-                        <div class="row g-4">
-                            <div class="col-md-4">
-                                <div class="project-img">
-                                    <img src="img/9.jpeg" class="img-fluid w-100 pt-3 ps-3" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">Architecture</p>
-                                    <a href="#" class="h4">We Building Everything</a>
-                                    <p class="mb-0 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Tenetur tempore perferendis velit minus, perspiciatis eveniet adipisci tempora
-                                        voluptatem quis dolores.</p>
-                                </div>
-                                <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="project-item">
-                        <div class="row g-4">
-                            <div class="col-md-4">
-                                <div class="project-img">
-                                    <img src="img/10.webp" class="img-fluid w-100 pt-3 ps-3" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">Interior Design</p>
-                                    <a href="#" class="h4">We Building Everything</a>
-                                    <p class="mb-0 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Tenetur tempore perferendis velit minus, perspiciatis eveniet adipisci tempora
-                                        voluptatem quis dolores.</p>
-                                </div>
-                                <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="project-item">
-                        <div class="row g-4">
-                            <div class="col-md-4">
-                                <div class="project-img">
-                                    <img src="img/5.jpg" class="img-fluid w-100 pt-3 ps-3" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">House & Exterior</p>
-                                    <a href="#" class="h4">We Building Everything</a>
-                                    <p class="mb-0 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Tenetur tempore perferendis velit minus, perspiciatis eveniet adipisci tempora
-                                        voluptatem quis dolores.</p>
-                                </div>
-                                <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="project-item">
-                        <div class="row g-4">
-                            <div class="col-md-4">
-                                <div class="project-img">
-                                    <img src="img/8.jpg" class="img-fluid w-100 pt-3 ps-3" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">Interior Design</p>
-                                    <a href="#" class="h4">We Building Everything</a>
-                                    <p class="mb-0 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Tenetur tempore perferendis velit minus, perspiciatis eveniet adipisci tempora
-                                        voluptatem quis dolores.</p>
-                                </div>
-                                <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <a class="btn btn-secondary py-3 px-5" href="#">More Projects</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-  <!-- Projects End -->
 
   <!-- Team Start -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -603,8 +469,6 @@
   </div>
 
   <!-- Team End -->
-
-
 
   <!-- Testimonial Start -->
   <div class="container-fluid testimonial pb-5" dir="ltr" data-dir="ltr">
@@ -691,6 +555,64 @@
 
 
   <!-- Testimonial End -->
+ <!-- Features Start -->
+        <div class="container-fluid feature bg-light py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h2 class="display-4 text-capitalize mb-3" data-i18n="whyUsTitle">Why Choose Us</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="feature-item text-center border p-4 h-100">
+                    <div class="feature-img bg-secondary d-inline-flex p-4">
+                        <i class="fas fa-globe text-primary fa-3x"></i>
+                    </div>
+                    <h4 class="my-3" data-i18n="globalExperienceTitle">Global Experience</h4>
+                    <p class="mb-0" data-i18n="globalExperienceDesc">
+                        We have a proven track record of successful big data and AI projects executed for companies across the globe.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="feature-item text-center border p-4 h-100">
+                    <div class="feature-img bg-secondary d-inline-flex p-4">
+                        <i class="fas fa-bullseye text-primary fa-3x"></i>
+                    </div>
+                    <h4 class="my-3" data-i18n="valueForResultsTitle">Value for Results</h4>
+                    <p class="mb-0" data-i18n="valueForResultsDesc">
+                        Our specialized team ensures you receive precise and effective solutions that achieve the results you desire.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="feature-item text-center border p-4 h-100">
+                    <div class="feature-img bg-secondary d-inline-flex p-4">
+                        <i class="fas fa-handshake text-primary fa-3x"></i>
+                    </div>
+                    <h4 class="my-3" data-i18n="flexibleTermsTitle">Flexible Collaboration Terms</h4>
+                    <p class="mb-0" data-i18n="flexibleTermsDesc">
+                        We believe in offering flexible collaboration models and fixed pricing that suit your project needs to ensure the best experience.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="feature-item text-center border p-4 h-100">
+                    <div class="feature-img bg-secondary d-inline-flex p-4">
+                        <i class="fas fa-check-circle text-primary fa-3x"></i>
+                    </div>
+                    <h4 class="my-3" data-i18n="highQualityTitle">High-Quality Results</h4>
+                    <p class="mb-0" data-i18n="highQualityDesc">
+                        We always focus on delivering tangible outcomes through customized solutions that meet the unique challenges of our clients.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Features End -->
+
+
 
   <!-- Footer Start -->
   <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s" id="footer">
@@ -722,16 +644,12 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="text-white mb-4" data-i18n="our_services">Our Services</h4>
-            <a href="service.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_erp">ERP
+            <a href="erp.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="services_section-service1-title">ERP
                 Systems</span></a>
-            <a href="service.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_rpa">RPA - Robotic
+            <a href="ai.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="services_section-service2-title">RPA - Robotic
                 Process Automation</span></a>
-            <a href="service.html"><i class="fas fa-angle-right me-2"></i> <span
-                data-i18n="service_custom_software">Custom Software Solutions</span></a>
-            <a href="service.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_ai_ml">AI & ML
-                Solutions</span></a>
-            <a href="service.html"><i class="fas fa-angle-right me-2"></i> <span
-                data-i18n="service_data_management">Data Management</span></a>
+            <a href="cloud.html"><i class="fas fa-angle-right me-2"></i> <span
+                data-i18n="services_section-service3-title">Custom Software Solutions</span></a>
           </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">

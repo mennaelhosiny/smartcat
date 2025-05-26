@@ -22,8 +22,10 @@ const translations = {
     title2: "Leading the Future with Smart Data",
     description2: "Inspiring and contribute to cutting-edge technologies that positively impact on Saudi innovative goals. Empowering Businesses Through data.",
     subtitle3: "Digital Future",
-    title3: "Our Vision is Empowering Saudi Digital Economy through Business and Data Curiosity.",
-    description3: "Contributing to the Saudi digital economy through innovation and the power of data.",
+    title3: "Our Vision ",
+    description3: "Our Vision is Empowering Saudi Digital Economy through Business and Data Curiosity.",
+    mession: "Our Mission",
+    mesiondesc: "Embracing advanced technologies that positively impact Saudi Arabia’s innovation goals and enabling business growth through data.",
     company: "WE ARE CONSTRUCTION COMPANY",
     vision: "Making your vision come true at the basics.",
     description4: "Smartcat is Saudi company that established with expert in the domain for more than 10 years in digital solutions, aiming to contributes for positive impact on Saudi Digital economy.",
@@ -45,28 +47,7 @@ const translations = {
     "highQualityTitle": "High-Quality Results",
     "highQualityDesc": "We always focus on delivering tangible outcomes through customized solutions that meet the unique challenges of our clients.",
     "title_of_services_section": "Our Services",
-    "subtitle_of_services_section": "Advanced Digital Solutions",
 
-    "title_of_erp": "ERP Systems",
-    "desc_of_erp": "Oracle – Odoo – Dynamics 365 – API integrations and tailored ERP solutions.",
-
-    "title_of_rpa": "RPA Automation",
-    "desc_of_rpa": "UiPath, WorkFusion, Power Automate, Automation Anywhere & predictive analytics automation.",
-
-    "title_of_ai": "AI & Software Development",
-    "desc_of_ai": "Custom apps, web/mobile solutions, code audits, AI products, IoT & NLP systems.",
-
-    "title_of_cloud": "Data Management & Cloud Solutions",
-    "desc_of_cloud": `Data Management:
-- Data analytics tools and dashboards
-- Big data using Hadoop, Spark, or SQL
-- Predictive models
-- Business intelligence
-- Big data analytics
-
-Cloud Solutions:
-- Data consulting & strategy
-- AI-powered cloud solutions`,
     "text_of_read_more_btn": "Read More",
     "completed_projects": "Completed Projects",
     "happy_customers": "Happy Customers",
@@ -185,15 +166,65 @@ Cloud Solutions:
     "ourValues-growth-title": "Growth",
     "ourValues-growth-desc": "We are committed to achieving real growth impact in every project we undertake.",
 
-  "journey-step1-desc": "Developing a comprehensive strategy aligned with your company's goals.",
-  "journey-step2-desc": "Smart solutions... for a sustainable future",
-  "journey-step3-desc": "Creating an action plan based on best practices for growth.",
-  "journey-step4-desc": "Leveraging multiple platforms to enhance value and improve outcomes.",
-  "journey-step5-desc": "Using data to create personalized experiences and precise goals.",
-  "journey-step6-desc": "Designing seamless user experiences across all digital platforms.",
-  "journey-step7-desc": "Continuously optimizing strategies to ensure long-term success.",
-  "journey-step8-desc": "Employing AI and machine learning to model sustainable solutions.",
-  "journey-step9-desc": "Smart solutions... for a sustainable future",
+    "journey-step1-desc": "Developing a comprehensive strategy aligned with your company's goals.",
+    "journey-step2-desc": "Smart solutions... for a sustainable future",
+    "journey-step3-desc": "Creating an action plan based on best practices for growth.",
+    "journey-step4-desc": "Leveraging multiple platforms to enhance value and improve outcomes.",
+    "journey-step5-desc": "Using data to create personalized experiences and precise goals.",
+    "journey-step6-desc": "Designing seamless user experiences across all digital platforms.",
+    "journey-step7-desc": "Continuously optimizing strategies to ensure long-term success.",
+    "journey-step8-desc": "Employing AI and machine learning to model sustainable solutions.",
+    "journey-step9-desc": "Smart solutions... for a sustainable future",
+
+
+    "services_section-title": "Some of Our Tech Services",
+
+    "services_section-service1-label": "ERP Systems",
+    "services_section-service1-title": "Enterprise Resource Planning Systems",
+
+
+    "services_section-service2-label": "Artificial Intelligence",
+    "services_section-service2-title": "Software Development and AI Solutions",
+
+
+    "services_section-service3-label": "Cloud Solutions",
+    "services_section-service3-title": "Data Management and Cloud Solutions",
+
+
+    "read_more_btn": "Read More",
+
+    "title_erp": "Enterprise Resource Planning Systems (ERP Systems):",
+    "oracle": "Oracle",
+    "odoo": "Odoo",
+    "dynamics": "Dynamics 365 (Microsoft)",
+    "apis": "Application Programming Interfaces (APIs)",
+    "title_rpa": "Robotic Process Automation (RPA):",
+    "uipath": "UiPath",
+    "workfusion": "WorkFusion",
+    "powerautomate": "Microsoft Power Automate",
+    "automationanywhere": "Automation Anywhere",
+    "predictive": "Predictive Analytics Automation",
+
+    "custom_solutions": "Custom Software Solutions",
+    "web_apps": "Web Applications",
+    "mobile_apps": "Mobile Applications",
+    "code_review": "Code Review",
+    "ai_ml": "AI & Machine Learning Solutions",
+    "ai_product_dev": "AI & ML Product Development",
+    "iot_solutions": "IoT Solutions",
+    "nlp": "Natural Language Processing (NLP)",
+    "title_data_management": "Data Management & Analytics",
+    "data_tools": "Data Analysis Tools & Dashboards",
+    "big_data": "Big Data with Hadoop, Spark, or SQL",
+    "predictive_models": "Predictive Models",
+    "business_intelligence": "Business Intelligence",
+    "big_data_analytics": "Big Data Analytics",
+    "title_cloud_solutions": "Cloud Solutions",
+    "data_consulting": "Data Consulting & Strategy",
+    "ai_cloud": "AI-Powered Cloud Solutions",
+
+
+
 
 
 
@@ -221,7 +252,7 @@ Cloud Solutions:
     title2: "نقود المستقبل بالبيانات الذكية",
     description2: "تبني التقنيات المتطورة التي تُحدث تأثيرًا إيجابيًا على مستهدفات الابتكارية للسعودية و تمكين نمو الأعمال من خلال البيانات.",
     subtitle3: "المستقبل الرقمي",
-    title3: "رؤيتنا هي تمكين الاقتصاد الرقمي السعودي من خلال الأعمال والفضول المعرفي بالبيانات.",
+    title3: "رؤيتنا           .",
     description3: "المساهمة في الاقتصاد الرقمي السعودي من خلال الابتكار والاستفادة من البيانات.",
     company: "  ﻋــﻦ ﺳﻤـﺎرت ﻛـﺎت ",
     vision: "نجعل رؤيتك حقيقة من الأساسيات.",
@@ -244,36 +275,7 @@ Cloud Solutions:
     "highQualityTitle": "نتائج عالية الجودة",
     "highQualityDesc": "نركز دائمًا على تقديم نتائج ملموسة من خلال حلول مخصصة تلبي التحديات الفريدة لعملائنا.",
     "title_of_services_section": "خدماتنا",
-    "subtitle_of_services_section": "حلول رقمية متقدمة",
-
-    "title_of_erp": "  أنظمة تخطيط المواردالمؤسسة",
-    "desc_of_erp": "أوراكل – أودو – دايناميكس 365 – تكامل واجهات البرمجة وحلول ERP المخصصة.",
-
-    "title_of_rpa": "أتمتة العمليات الروبوتية",
-    "desc_of_rpa": "UiPath، WorkFusion، Power Automate، Automation Anywhere وتحليلات تنبؤية.",
-
-    "title_of_ai": "الذكاء الاصطناعي وتطوير البرمجيات",
-    "desc_of_ai": "تطبيقات مخصصة، حلول ويب/موبايل، مراجعة الأكواد، منتجات AI، IoT و NLP.",
-
-    "title_of_cloud": "إدارة البيانات والحلول السحابية",
-    "desc_of_cloud": `إدارة البيانات:
-- أدوات تحليل البيانات وDashboard
-- البيانات الضخمة باستخدام Hadoop أو Spark أو SQL
-- النماذج التنبؤية
-- ذكاء الأعمال
-- تحليلات البيانات الضخمة
-
-الحلول السحابية:
-- الاستشارات في البيانات واستراتيجيات البيانات
-- الحلول السحابية المدعومة بالذكاء الاصطناعي`,
-    "tech_title": "تقنيات التطوير التي نعتمد عليها",
-    "tech_desc": `- لغات البرمجة: Python، JavaScript، Java، PHP\n
-     
-- أُطُر العمل: React، Angular، Django
-- المنصات السحابية: أمازون، جوجل كلاود، مايكروسوفت Azure
-- أدوات التحليل: Tableau، Power BI، تحليلات جوجل`,
     "text_of_read_more_btn": "اقرأ المزيد",
-
     "completed_projects": "المشاريع المنجزة",
     "happy_customers": "العملاء السعداء",
     "qualified_engineers": "المهندسون المؤهلون",
@@ -355,18 +357,65 @@ Cloud Solutions:
 
     "ourValues-growth-title": "النمو",
     "ourValues-growth-desc": "نلتزم بتحقيق تأثير نمو حقيقي في كل مشروع ننفذه.",
-  
-  "journey-step1-desc": "تطوير استراتيجية متكاملة تتماشى مع أهداف شركتك.",
-  "journey-step2-desc": "حلول ذكية .. لمستقبل مستدام",
-  "journey-step3-desc": "وضع خطة عمل مبنية على أفضل الممارسات للتوسع.",
-  "journey-step4-desc": "استخدام منصات متعددة لتعزيز القيمة وتحسين النتائج.",
-  "journey-step5-desc": "الاستفادة من البيانات لإنشاء تجارب مخصصة وأهداف دقيقة.",
-  "journey-step6-desc": "تصميم تجارب مستخدمين سلسة عبر كافة المنصات الرقمية.",
-  "journey-step7-desc": "التحسين المستمر للإستراتيجيات لضمان النجاح طويل المدى.",
-  "journey-step8-desc": "توظيف الذكاء الاصطناعي والتعلم الآلي لنمذجة حلول مستدامة.",
-  "journey-step9-desc": "حلول ذكية .. لمستقبل مستدام"
+
+    "journey-step1-desc": "تطوير استراتيجية متكاملة تتماشى مع أهداف شركتك.",
+    "journey-step2-desc": "حلول ذكية .. لمستقبل مستدام",
+    "journey-step3-desc": "وضع خطة عمل مبنية على أفضل الممارسات للتوسع.",
+    "journey-step4-desc": "استخدام منصات متعددة لتعزيز القيمة وتحسين النتائج.",
+    "journey-step5-desc": "الاستفادة من البيانات لإنشاء تجارب مخصصة وأهداف دقيقة.",
+    "journey-step6-desc": "تصميم تجارب مستخدمين سلسة عبر كافة المنصات الرقمية.",
+    "journey-step7-desc": "التحسين المستمر للإستراتيجيات لضمان النجاح طويل المدى.",
+    "journey-step8-desc": "توظيف الذكاء الاصطناعي والتعلم الآلي لنمذجة حلول مستدامة.",
+    "journey-step9-desc": "حلول ذكية .. لمستقبل مستدام",
 
 
+
+    "services_section-title": "بعض من خدماتنا التقنية",
+
+    "services_section-service1-label": "أنظمة ERP",
+    "services_section-service1-title": "أنظمة تخطيط الموارد المؤسسية",
+
+
+    "services_section-service2-label": "الذكاء الاصطناعي",
+    "services_section-service2-title": "تطوير البرمجيات وحلول الذكاء الاصطناعي",
+
+
+    "services_section-service3-label": "الحلول السحابية",
+    "services_section-service3-title": "إدارة البيانات والحلول السحابية",
+
+    "read_more_btn": "اعرف المزيد",
+
+    "title_erp": "أنظمة تخطيط الموارد المؤسسية (ERP Systems):",
+    "oracle": "أوراكل (Oracle)",
+    "odoo": "أودو (Odoo)",
+    "dynamics": "دايناميكس 365 (Microsoft Dynamics 365)",
+    "apis": "واجهات التطبيقات البرمجية (APIs)",
+    "title_rpa": "أتمتة العمليات الروبوتية (RPA):",
+    "uipath": "يو آي باث (UiPath)",
+    "workfusion": "وورك فيوجن (WorkFusion)",
+    "powerautomate": "مايكروسوفت باور أوتوميت (Power Automate)",
+    "automationanywhere": "أوتوميشن أنيويير (Automation Anywhere)",
+    "predictive": "أتمتة التحليلات التنبؤية",
+
+    "custom_solutions": "حلول برمجية مخصصة",
+    "web_apps": "تطبيقات الويب",
+    "mobile_apps": "تطبيقات الجوال",
+    "code_review": "مراجعة الأكواد",
+    "ai_ml": "حلول الذكاء الاصطناعي وتعلم الآلة",
+    "ai_product_dev": "تطوير منتجات الذكاء الاصطناعي وتعلم الآلة",
+    "iot_solutions": "حلول إنترنت الأشياء",
+    "nlp": "معالجة اللغات الطبيعية (NLP)",
+    "title_data_management": "إدارة البيانات وتحليلاتها",
+    "data_tools": "أدوات تحليل البيانات ولوحات المعلومات (Dashboard)",
+    "big_data": "البيانات الضخمة باستخدام Hadoop أو Spark أو SQL",
+    "predictive_models": "النماذج التنبؤية",
+    "business_intelligence": "ذكاء الأعمال",
+    "big_data_analytics": "تحليلات البيانات الضخمة",
+    "title_cloud_solutions": "الحلول السحابية",
+    "data_consulting": "الاستشارات في البيانات واستراتيجيات البيانات",
+    "ai_cloud": "الحلول السحابية المدعومة بالذكاء الاصطناعي",
+    mession: "مهمتنا",
+    mesiondesc: " تبني التقنيات المتطورة التي تُحدث تأثيرًا إيجابيًا على مستهدفات الابتكارية للسعودية و تمكين نمو الأعمال من خلال البيانات.",
   }
 
 };

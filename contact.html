@@ -48,56 +48,51 @@
 
         <!-- Navbar & Hero Start -->
         <div class="container-fluid sticky-top px-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
-            <a href="index.html" class="navbar-brand p-0">
-                <div class="">
-                    <img src="img/Logo-1.png" alt="" srcset="" style="height: 70px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light  px-4">
+      <a href="index.html" class="navbar-brand p-0">
+        <div class="">
+          <img src="img/Logo-1.png" alt="" srcset="" style="height: 80px;">
 
-                </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="fa fa-bars"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto pt-2 pt-lg-0">
-                    <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
-                     <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
-                    <a href="service.html" class="nav-item nav-link" data-i18n="services">Services</a>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <!-- قائمة الروابط -->
+        <div class="navbar-nav pt-2 pt-lg-0 mx-lg-4 "> <!-- أضفنا ms-lg-4 لتباعد بسيط عن اللوجو -->
+          <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
+          <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
 
-                   
-
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                            data-i18n="pages">Pages</a>
-                        <div class="dropdown-menu m-lg-0">
-                            <a href="feature.html" class="dropdown-item" data-i18n="features">Our Features</a>
-                            <a href="blog.html" class="dropdown-item" data-i18n="blog">Our Blog</a>
-                            <a href="team.html" class="dropdown-item" data-i18n="team">Our Team</a>
-                            <a href="testimonial.html" class="dropdown-item" data-i18n="testimonial">Testimonial</a>
-                            <a href="404.html" class="dropdown-item" data-i18n="errorPage">404 Page</a>
-                        </div>
-                    </div> -->
-
-                    <a href="contact.html" class="nav-item nav-link" data-i18n="contact">Contact</a>
-                </div>
-
-                <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-3 gap-3">
-
-
-                    <div class="dropdown">
-                        <button id="languageToggle" class="btn btn-secondary py-2 px-2"
-                            style="min-width: 100px;">عربي</button>
-                        <div class="dropdown-menu dropdown-menu-end">
-                            <a class="dropdown-item" href="#" data-lang="en">English</a>
-                            <a class="dropdown-item" href="#" data-lang="ar">العربية</a>
-                        </div>
-                    </div>
-                </div>
+          <div class="nav-item dropdown">
+            <a href="project.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="services">Service</a>
+            <div class="dropdown-menu m-lg-0">
+              <a href="project.html" class="dropdown-item text-center" data-i18n="services">Our Blog</a>
+              <a href="erp.html" class="dropdown-item text-center" data-i18n="services_section-service1-title">Our Features</a>
+              <a href="ai.html" class="dropdown-item text-center" data-i18n="services_section-service2-title">Our Blog</a>
+              <a href="cloud.html" class="dropdown-item text-center" data-i18n="services_section-service3-title">Our Team</a>
             </div>
-        </nav>
+          </div>
 
-    </div>
+          <a href="contact.html" class="nav-item nav-link" data-i18n="contact">Contact</a>
+        </div>
+
+        <!-- زر اللغة في أقصى الطرف -->
+        <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0">
+          <div class="dropdown ms-lg-3"> <!-- margin start (يسار) للتباعد -->
+            <button id="languageToggle" class="btn btn-secondary py-2 px-2" style="min-width: 100px;">عربي</button>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a class="dropdown-item" href="#" data-lang="en">English</a>
+              <a class="dropdown-item" href="#" data-lang="ar">العربية</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+  </div>
         <!-- Navbar & Hero End -->
 
        
@@ -171,60 +166,66 @@
         <!-- Contact End -->
 
         <!-- Footer Start -->
-          <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s"  id="footer">
-  <div class="container py-5">
-    <div class="row g-5">
-      <div class="col-md-6 col-lg-6 col-xl-3">
-        <div class="footer-item d-flex flex-column">
-          <div class="footer-item">
-            <h4 class="text-white mb-4" data-i18n="subtitle">Newsletter</h4>
-            <p class="mb-3" data-i18n="title">
-              Be the first to get the latest news and exclusive updates directly in your inbox.
-            </p>
+      <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s" id="footer">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <div class="footer-item">
+              <h4 class="text-white mb-4" data-i18n="company">Newsletter</h4>
+              <p class="mb-3" data-i18n="description4">
+                Be the first to get the latest news and exclusive updates directly in your inbox.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-6 col-lg-6 col-xl-3">
-        <div class="footer-item d-flex flex-column">
-          <h4 class="text-white mb-4" data-i18n="explore">Explore</h4>
-          <a href="index.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="home">Home</span></a>
-          <a href="service.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="services">Services</span></a>
-          <a href="about.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="about">About Us</span></a>
-          <a href="testimonial.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="testimonial">Testimonials</span></a>
-          <a href="team.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="team">Our Team</span></a>
-          <a href="contact.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="contact">Contact Us</span></a>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="text-white mb-4" data-i18n="explore">Explore</h4>
+            <a href="index.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="home">Home</span></a>
+            <a href="service.html"><i class="fas fa-angle-right me-2"></i> <span
+                data-i18n="services">Services</span></a>
+            <a href="about.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="about">About Us</span></a>
+        
+            <a href="team.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="team">Our Team</span></a>
+            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="contact">Contact
+                Us</span></a>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6 col-lg-6 col-xl-3">
-        <div class="footer-item d-flex flex-column">
-          <h4 class="text-white mb-4" data-i18n="our_services">Our Services</h4>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_erp">ERP Systems</span></a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_rpa">RPA - Robotic Process Automation</span></a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_custom_software">Custom Software Solutions</span></a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_ai_ml">AI & ML Solutions</span></a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> <span data-i18n="service_data_management">Data Management</span></a>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="text-white mb-4" data-i18n="our_services">Our Services</h4>
+            <a href="erp.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="services_section-service1-title">ERP
+                Systems</span></a>
+            <a href="ai.html"><i class="fas fa-angle-right me-2"></i> <span data-i18n="services_section-service2-title">RPA - Robotic
+                Process Automation</span></a>
+            <a href="cloud.html"><i class="fas fa-angle-right me-2"></i> <span
+                data-i18n="services_section-service3-title">Custom Software Solutions</span></a>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6 col-lg-6 col-xl-3">
-        <div class="footer-item d-flex flex-column">
-          <h4 class="text-white mb-4" data-i18n="contact_info">Contact Info</h4>
-          <a href="mailto:info@smartcart.sa"><i class="fas fa-envelope me-2"></i> <span data-i18n="email">info@smartcart.sa</span></a>
-          <a href="tel:+966112175930" class="mb-3"><i class="fas fa-phone me-2"></i> <span data-i18n="phone">+966-11 217 5930</span></a>
-          <div class="footer-btn d-flex align-items-center">
-            <a class="btn btn-secondary btn-md-square me-2" href="https://facebook.com/" target="_blank" rel="noopener"><i
-                class="fab fa-facebook-f text-white"></i></a>
-            <a class="btn btn-secondary btn-md-square me-2" href="https://twitter.com/" target="_blank" rel="noopener"><i
-                class="fab fa-twitter text-white"></i></a>
-            <a class="btn btn-secondary btn-md-square me-2" href="https://instagram.com/" target="_blank" rel="noopener"><i
-                class="fab fa-instagram text-white"></i></a>
-            <a class="btn btn-secondary btn-md-square me-0" href="https://linkedin.com/" target="_blank" rel="noopener"><i
-                class="fab fa-linkedin-in text-white"></i></a>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="text-white mb-4" data-i18n="contact_info">Contact Info</h4>
+            <a href="mailto:info@smartcart.sa"><i class="fas fa-envelope me-2"></i> <span
+                data-i18n="email">info@smartcart.sa</span></a>
+            <a href="tel:+966112175930" class="mb-3"><i class="fas fa-phone me-2"></i> <span dir="ltr" data-i18n="phone">+966-11
+                217 5930</span></a>
+            <div class="footer-btn d-flex align-items-center">
+              <a class="btn btn-secondary btn-md-square me-2" href="https://facebook.com/" target="_blank"
+                rel="noopener"><i class="fab fa-facebook-f text-white"></i></a>
+              <a class="btn btn-secondary btn-md-square me-2" href="https://x.com/sasmartcat?s=11" target="_blank"
+                rel="noopener"><i class="fab fa-twitter text-white"></i></a>
+              <a class="btn btn-secondary btn-md-square me-2"
+                href="https://www.instagram.com/smartcat.sa?igsh=MW0yYmZ3a3pmbDZ0Yw==" target="_blank" rel="noopener"><i
+                  class="fab fa-instagram text-white"></i></a>
+              <a class="btn btn-secondary btn-md-square me-2" href="https://www.linkedin.com/in/smartcatsa"
+                target="_blank" rel="noopener"><i class="fab fa-linkedin-in text-white"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
         <!-- Footer End -->
 
         

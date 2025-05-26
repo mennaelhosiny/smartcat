@@ -273,9 +273,7 @@ h2{
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 64, 255, 0.7));
-        /* background: linear-gradient(rgba(0, 18, 72, 0.7), rgba(0, 18, 72, 0.7)), url(../img/2.webp); */
-
+    background: linear-gradient(rgba(0, 18, 72, 0.9), rgba(0, 22, 89, 1)), url(../img/2.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -501,6 +499,7 @@ h1{
 .feature .feature-item {
     position: relative;
     transition: 0.5s;
+    border-radius: 20px;
 }
 .feature .feature-item:hover {
     background: var(--bs-white);
@@ -610,7 +609,7 @@ h1{
 
 /*** Fact Counter ***/
 .counter {
-    background: linear-gradient(rgba(0, 18, 72, 0.9), rgba(0, 22, 89, 1)), url(../img/2.webp);
+    background: #f9f9f9;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -652,7 +651,7 @@ h1{
     margin-right: 20px;
     margin-bottom: 20px;
     background: var(--bs-white);
-    box-shadow: 20px 20px rgb(179 48 52);
+    box-shadow: 20px 20px #000e37d1;
     z-index: 3;
         border-radius: 30px;
 }
@@ -909,8 +908,12 @@ h1{
     padding-bottom: 8px;
     margin-bottom: 24px;
   }
+  .carousel-caption {
+     right: 2% !important;
+     left: 2% !important; 
+   
 }
-
+}
 /* رحله  */
 .timeline-wrapper {
     background: linear-gradient(rgba(0, 18, 72, 0.9), rgba(0, 22, 89, 1)), url(../img/2.webp);
