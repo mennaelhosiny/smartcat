@@ -222,6 +222,13 @@ const translations = {
     "title_cloud_solutions": "Cloud Solutions",
     "data_consulting": "Data Consulting & Strategy",
     "ai_cloud": "AI-Powered Cloud Solutions",
+ "tech_title": "Development Technologies We Rely On",
+  "tech_languages": "Programming Languages",
+  "tech_frameworks": "Frameworks",
+  "tech_cloud": "Cloud Platforms",
+  "tech_analytics": "Analytics Tools",
+   "global_reach_title": "Global Reach",
+  "global_reach_description": "At Smart Cat, we do not just build digital solutions; we also focus on building strategic partnerships that contribute to business success in the digital age."
 
 
 
@@ -416,6 +423,14 @@ const translations = {
     "ai_cloud": "الحلول السحابية المدعومة بالذكاء الاصطناعي",
     mession: "مهمتنا",
     mesiondesc: " تبني التقنيات المتطورة التي تُحدث تأثيرًا إيجابيًا على مستهدفات الابتكارية للسعودية و تمكين نمو الأعمال من خلال البيانات.",
+     "tech_title": "تقنيات التطوير التي نعتمد عليها",
+  "tech_languages": "لغات البرمجة",
+  "tech_frameworks": "أُطُر العمل",
+  "tech_cloud": "المنصات السحابية",
+  "tech_analytics": "أدوات التحليل",
+   "global_reach_title": "الوصول العالمي",
+  "global_reach_description": "في سمارت كات، لا نكتفي ببناء حلول رقمية فقط ؛ بل نركز أيضًا على بناء شراكات استراتيجية تساهم في نجاح الأعمال في العصر الرقمي."
+
   }
 
 };
