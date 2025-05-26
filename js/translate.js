@@ -141,7 +141,7 @@ const translations = {
     service_data_management: "Data Management",
     contact_info: "Contact Info",
     email: "info@smartcart.sa",
-    phone: "+966-11 217 5930",
+    phone: "(+966) 55 444 2151",
     send_message_title: "Send Your Message",
     contact_form_info:
       "The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.",
