@@ -151,7 +151,7 @@ const translations = {
     message: "Message",
     send_message_button: "Send Message",
     telephone: "Telephone",
-    phone_number: "(+966) 3456 7890 123",
+    phone_number: "(+966)55 444 2151",
 
     "ourValues-title": "Our Values",
     "ourValues-exploration-title": "Exploration",
@@ -228,7 +228,14 @@ const translations = {
   "tech_cloud": "Cloud Platforms",
   "tech_analytics": "Analytics Tools",
    "global_reach_title": "Global Reach",
-  "global_reach_description": "At Smart Cat, we do not just build digital solutions; we also focus on building strategic partnerships that contribute to business success in the digital age."
+  "global_reach_description": "At Smart Cat, we do not just build digital solutions; we also focus on building strategic partnerships that contribute to business success in the digital age.",
+   "sectors_title": "Sectors We Serve",
+  "sector_healthcare": "Healthcare",
+  "sector_entertainment": "Entertainment",
+  "sector_finance": "Finance & Business",
+  "sector_retail": "Retail",
+  "sector_sports": "Sports",
+  "sector_logistics": "Logistics"
 
 
 
@@ -338,7 +345,7 @@ const translations = {
     service_data_management: "إدارة البيانات",
     contact_info: "معلومات التواصل",
     email: "info@smartcart.sa",
-    phone: "+966-11 217 5930",
+    phone:" (+966) 55 444 2151",
     send_message_title: "أرسل رسالتك",
     contact_form_info:
       "نموذج الاتصال غير مفعل حالياً. يمكنك الحصول على نموذج فعال يعمل بـ Ajax و PHP في دقائق. فقط انسخ الملفات، أضف بعض الشيفرة، وتم الأمر.",
@@ -348,7 +355,7 @@ const translations = {
     message: "الرسالة",
     send_message_button: "أرسل الرسالة",
     telephone: "الهاتف",
-    phone_number: "(+966) 3456 7890 123",
+    phone_number: "(+966) 55 444 2151",
     "ourValues-title": "قيمنا",
     "ourValues-exploration-title": "الاستطلاع",
     "ourValues-exploration-desc": "نبحث عن أفضل الحلول المخصصة لتحقيق أهداف عملائنا.",
@@ -429,7 +436,14 @@ const translations = {
   "tech_cloud": "المنصات السحابية",
   "tech_analytics": "أدوات التحليل",
    "global_reach_title": "الوصول العالمي",
-  "global_reach_description": "في سمارت كات، لا نكتفي ببناء حلول رقمية فقط ؛ بل نركز أيضًا على بناء شراكات استراتيجية تساهم في نجاح الأعمال في العصر الرقمي."
+  "global_reach_description": "في سمارت كات، لا نكتفي ببناء حلول رقمية فقط ؛ بل نركز أيضًا على بناء شراكات استراتيجية تساهم في نجاح الأعمال في العصر الرقمي.",
+  "sectors_title": "القطاعات التي نخدمها",
+  "sector_healthcare": "الرعاية الصحية",
+  "sector_entertainment": "الترفيه",
+  "sector_finance": "المال والأعمال",
+  "sector_retail": "التجزئة",
+  "sector_sports": "الرياضة",
+  "sector_logistics": "الخدمات اللوجستية"
 
   }
 
