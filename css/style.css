@@ -916,9 +916,11 @@ h1{
 }
 /* رحله  */
 .timeline-wrapper {
-    background: linear-gradient(rgba(0, 18, 72, 0.9), rgba(0, 22, 89, 1)), url(../img/2.webp);
+  background: linear-gradient(rgba(0, 18, 72, 0.9), rgba(0, 22, 89, 1)), url(../img/1.jpg);
   padding: 60px 20px;
   color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -1021,6 +1023,8 @@ h1 {
   line-height: 1.6;
   box-shadow: 0 4px 15px rgba(220, 56, 61, 0.2);
   z-index: 2;
+  width: 400px;
+  height: 120px;
 }
 
 @media (max-width: 768px) {
@@ -1053,6 +1057,8 @@ h1 {
     font-size: 1rem;
     line-height: 1.6;
     box-shadow: 0 4px 15px rgba(220, 56, 61, 0.2);
+    width: auto;
+    height: auto;
   }
 
   .iconn {
