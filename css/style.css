@@ -114,47 +114,98 @@ h2{
 
 .navbar .navbar-nav .nav-item.nav-link,
 .navbar .navbar-nav .nav-link {
-    color: var(--bs-dark);
+  color: var(--bs-dark);
 }
 
 .navbar .navbar-nav .nav-link {
-    position: relative;
-    padding: 10px;
-    font-weight: 400;
-    font-family: "Playfair Display", serif;
-    font-size: 17px;
-    transition: .5s;
-    z-index: 99;
+  position: relative;
+  padding: 10px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  transition: 0.5s;
+  z-index: 99;
 }
 
 .navbar .navbar-nav .nav-item {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .navbar .navbar-nav .nav-item::before,
 .navbar .navbar-nav .nav-item::after {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    border: 2px solid var(--bs-secondary);
-    opacity: 0;
-    transition: 0.5s;
-    z-index: 2 !important;
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border: 2px solid var(--bs-secondary);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 2 !important;
 }
 
 .navbar .navbar-nav .nav-item::before {
-    top: 0;
-    left: 0;
-    border-bottom: 0;
-    border-right: 0;
+  top: 0;
+  left: 0;
+  border-bottom: 0;
+  border-right: 0;
 }
+
 .navbar .navbar-nav .nav-item::after {
-    bottom: 0;
-    right: 0;
-    border-top: 0;
-    border-left: 0;
+  bottom: 0;
+  right: 0;
+  border-top: 0;
+  border-left: 0;
 }
+
+.service-dropdown {
+  position: absolute;
+  top: -140% !important; /* يلتصق أسفل النافبار مباشرة */
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1050;
+  margin-top: 0 !important;
+}
+
+.service-tabs .nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.service-tabs .nav-link.active,
+.service-tabs .nav-link:hover {
+  background-color: #f1f1f1;
+  color: #0C8171;
+}
+
+/* يدعم اللغتين تلقائياً */
+html[dir="rtl"] .service-tabs .nav-link i {
+  float: left !important;
+  text-align: right !important;
+}
+html[dir="rtl"] .service-tabs .nav-link{
+  text-align: right !important;   
+}
+.tab-pane img{
+    height: 150px;
+}
+/* عند اللغة العربية */
+/* حافظ على اتجاه الصف الرئيسي كما هو */
+
+
+
+/* نمنع الصورة من التوسيط */
+html[dir="rtl"] .tab-pane .col-md-6:last-child {
+  display: flex;
+  justify-content: flex-start; /* خليها على اليسار */
+  align-items: center; /* لتوسيط عمودي لو الصورة مش واخدة كل الطول */
+}
+
+/* ننسق النص لليمين */
+html[dir="rtl"] .tab-content {
+  text-align: right;
+}
+
 
 /* .navbar .navbar-nav .nav-item:hover::after,
 .navbar .navbar-nav .nav-item:hover::before,

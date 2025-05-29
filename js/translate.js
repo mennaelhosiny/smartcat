@@ -235,7 +235,12 @@ const translations = {
   "sector_finance": "Finance & Business",
   "sector_retail": "Retail",
   "sector_sports": "Sports",
-  "sector_logistics": "Logistics"
+  "sector_logistics": "Logistics",
+  "tech_title": "Development Technologies We Rely On",
+  "tech_languages": "- Programming Languages: Python, JavaScript, Java, PHP",
+  "tech_frameworks": "- Frameworks: React, Angular, Django",
+  "tech_cloud": "- Cloud Platforms: Amazon, Google Cloud, Microsoft Azure",
+  "tech_analytics": "- Analytics Tools: Tableau, Power BI, Google Analytics"
 
 
 
@@ -443,7 +448,14 @@ const translations = {
   "sector_finance": "المال والأعمال",
   "sector_retail": "التجزئة",
   "sector_sports": "الرياضة",
-  "sector_logistics": "الخدمات اللوجستية"
+  "sector_logistics": "الخدمات اللوجستية",
+  "tech_title": "تقنيات التطوير التي نعتمد عليها",
+  "tech_languages": "- لغات البرمجة: Python، JavaScript، Java، PHP",
+  "tech_frameworks": "- أطر العمل: React، Angular، Django",
+  "tech_cloud": "- المنصات السحابية: امازون، جوجل كلاود، مايكروسوفت Azure",
+  "tech_analytics": "- أدوات التحليل: Tableau، Power BI، تحليلات جوجل"
+
+
 
   }
 
