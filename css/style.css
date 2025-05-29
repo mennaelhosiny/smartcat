@@ -671,6 +671,11 @@ h1{
 /*** Projects Start ***/
 .project .project-item .project-img {
     position: relative;
+   
+}
+.project .project-item .project-img img {
+    border-radius: 25px;
+   
 }
 
 .project .project-item .project-img::after {
@@ -682,6 +687,7 @@ h1{
     left: 0;
     background: var(--bs-secondary);
     z-index: -1;
+    border-radius: 20px;
 }
 
 .project .project-item .project-content a.h4 {
