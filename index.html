@@ -66,7 +66,7 @@
 
           <!-- Dropdown خاص بالخدمات -->
           <div class="nav-item dropdown position-static">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-i18n="services">Services</a>
+            <a class="nav-link dropdown-toggle" href="project.html" data-bs-toggle="dropdown" data-i18n="services">Services</a>
             <div class="dropdown-menu w-100 mt-0 rounded-0 border-top-0 shadow service-dropdown p-0">
               <div class="row g-0">
                 <!-- القائمة الجانبية -->
@@ -75,7 +75,7 @@
                    
                     <li class="nav-item mb-2">
                       
-                      <a class="nav-link active" href="erp.html" data-target="#service1"
+                      <a class="nav-link " href="erp.html" data-target="#service1"
                         data-i18n="services_section-service1-title">
                         Artificial Intelligence & ML 
                       </a>
@@ -92,13 +92,7 @@
                         Big Data & Cloud 
                       </a>
                     </li>
-                     <li class="nav-item mb-2">
-  
-                      <a class="nav-link active" href="project.html" data-target="#service1"
-                        data-i18n="blog">
-                        Artificial Intelligence & ML 
-                      </a>
-                    </li>
+                    
                   </ul>
                 </div>
 
@@ -108,7 +102,7 @@
                   <div class="tab-content">
 
                     <!-- Service 1 -->
-                    <div class="tab-pane fade show active" id="service1">
+                    <div class="tab-pane fade show " id="service1">
                       <div class="row">
                         <div class="col-md-6">
                           <ul class="list-unstyled fs-6 fw-medium">
@@ -253,10 +247,7 @@
               Empowering Digital Innovation for a Smarter Future
             </h1>
 
-            <p class="mb-5 fs-5 fadeInUp animate__animated mx-auto" data-animation="fadeInUp" data-delay="1.5s"
-              style="animation-delay: 1.5s; max-width: 600px; text-align: center;" data-i18n="description2">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
+            
 
             <!-- <div class="d-flex justify-content-center ">
                             <a class="btn btn-primary d-flex py-3 px-5 me-2 mx-3 flex-shrink-0 fadeInUp animate__animated"
@@ -282,15 +273,12 @@
 
   <!-- About Start -->
   <div class="container-fluid about py-5">
-    <div class="container py-5">
+    <div class="content-wrapper py-5">
       <div class="row g-5 align-items-center">
         <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.1s">
-          <div class="about-item-image d-flex">
-            <img src="img/about-img.jpg" class="img-1 img-fluid w-50" alt="">
-            <img src="img/hero-img.jpg" class="img-2 img-fluid w-50" alt="">
-            <div class="about-item-image-content">
-              <img src="img/newsletter.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
-            </div>
+          <div class=" d-flex">
+            <img src="img/Alex.webp" class="img-1 img-fluid " style="border-radius: 20px;" alt="">
+            
           </div>
         </div>
         <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.1s">
@@ -325,7 +313,7 @@
             <div class="counter-item">
               <div class="counter-item-style"></div>
               <div class="counter-item-inner p-5">
-                <i class="fas fa-paper-plane fa-4x text-secondary"></i>
+                <i class="fas fa-compass fa-4x text-secondary"></i>
                 <h4 class="text-dark my-4" data-i18n="ourValues-exploration-title">الاستطلاع</h4>
                 <p class="mb-0 text-muted" data-i18n="ourValues-exploration-desc">
                   نبحث عن أفضل الحلول المخصصة لتحقيق أهداف عملائنا.
@@ -340,7 +328,8 @@
             <div class="counter-item">
               <div class="counter-item-style"></div>
               <div class="counter-item-inner p-5">
-                <i class="fas fa-bullseye fa-4x text-secondary"></i>
+                <i class="fas fa-cogs fa-4x text-secondary"></i>
+
                 <h4 class="text-dark my-4" data-i18n="ourValues-development-title">التطوير</h4>
                 <p class="mb-0 text-muted" data-i18n="ourValues-development-desc">
                   تقييمات مستمرة لتقديم حلول أكثر فاعلية.
@@ -385,10 +374,9 @@
   </div>
 
   <!-- Blog Start -->
-  <div class="container-fluid blog pb-5">
+  <!-- <div class="container-fluid blog pb-5">
     <div class="container pb-5">
       <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-        <!-- <p class="text-uppercase text-secondary fs-5 mb-0" data-i18n="blog_section_title">Our Commitment</p> -->
         <h2 class="display-4 text-capitalize mb-3 mt-5" data-i18n="blog_section_subtitle">
           We are committed to staying up to date with the latest technological developments and industry best practices.
         </h2>
@@ -438,7 +426,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Blog End -->
 
   <!-- trip -->
@@ -446,7 +434,7 @@
     <h1>رحلتنا</h1>
     <div class="timeline">
 
-      <div class="timeline-item right">
+      <div class="timeline-item right wow fadeInLeft">
         <div class="content">
           <div class="iconn"><i class="fas fa-lightbulb"></i></div>
           <div class="text-box" data-i18n="journey-step1-desc"></div>
@@ -455,29 +443,31 @@
 
    
 
-      <div class="timeline-item left">
+      <div class="timeline-item left wow fadeInRight">
         <div class="content">
           <div class="iconn"><i class="fas fa-tasks"></i></div>
           <div class="text-box" data-i18n="journey-step3-desc"></div>
         </div>
       </div>
 
-      <div class="timeline-item right">
+      <div class="timeline-item right wow fadeInLeft">
         <div class="content">
-          <div class="text-box" data-i18n="journey-step4-desc"></div>
+          
           <div class="iconn"><i class="fas fa-network-wired"></i></div>
+          <div class="text-box" data-i18n="journey-step4-desc"></div>
         </div>
       </div>
 
 
-        <div class="timeline-item left">
+        <div class="timeline-item left wow fadeInRight">
         <div class="content">
-          <div class="text-box" data-i18n="journey-step6-desc"></div>
           <div class="iconn"><i class="fas fa-mobile-alt"></i></div>
+          <div class="text-box" data-i18n="journey-step6-desc"></div>
+          
         </div>
       </div>
 
-      <div class="timeline-item right">
+      <div class="timeline-item right wow fadeInLeft">
         <div class="content">
           <div class="iconn"><i class="fas fa-brain"></i></div>
           <div class="text-box" data-i18n="journey-step5-desc"></div>
@@ -488,14 +478,15 @@
 
       
 
-      <div class="timeline-item left">
+      <div class="timeline-item left wow fadeInRight">
         <div class="content">
+           <div class="iconn"><i class="fas fa-sync-alt"></i></div>
           <div class="text-box" data-i18n="journey-step7-desc"></div>
-          <div class="iconn"><i class="fas fa-sync-alt"></i></div>
+         
         </div>
       </div>
 
-      <div class="timeline-item right">
+      <div class="timeline-item right wow fadeInLeft">
         <div class="content">
           <div class="iconn"><i class="fas fa-robot"></i></div>
           <div class="text-box" data-i18n="journey-step8-desc"></div>
@@ -599,7 +590,7 @@
         <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
           <div class="team-role text-center border rounded-4 shadow-sm p-4 h-100 bg-white">
             <div class="icon mb-3">
-              <i class="fas fa-project-diagram fa-3x text-success"></i>
+              <i class="fas fa-project-diagram fa-3x text-primary"></i>
             </div>
             <h4 class="mb-3" data-i18n="team_pm_title">Technical Project Managers</h4>
             <p class="text-muted small" data-i18n="team_pm_desc">
@@ -611,7 +602,7 @@
         <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
           <div class="team-role text-center border rounded-4 shadow-sm p-4 h-100 bg-white">
             <div class="icon mb-3">
-              <i class="fas fa-laptop-code fa-3x text-info"></i>
+              <i class="fas fa-laptop-code fa-3x text-primary"></i>
             </div>
             <h4 class="mb-3" data-i18n="team_dev_title">Experienced Developers</h4>
             <p class="text-muted small" data-i18n="team_dev_desc">
@@ -623,7 +614,7 @@
         <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
           <div class="team-role text-center border rounded-4 shadow-sm p-4 h-100 bg-white">
             <div class="icon mb-3">
-              <i class="fas fa-chart-line fa-3x text-warning"></i>
+              <i class="fas fa-chart-line fa-3x text-primary"></i>
             </div>
             <h4 class="mb-3" data-i18n="team_ds_title">Skilled Data Scientists</h4>
             <p class="text-muted small" data-i18n="team_ds_desc">
@@ -634,94 +625,20 @@
       </div>
     </div>
   </div>
+<style>
+  .team-role {
+    background-image: url('img/bgg.png');
+    background-size: cover;
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.95); /* لون خفيف فوق الصورة */
+    backdrop-filter: blur(2px); /* تمويه خفيف للخلفية */
+    background-size: 130px;
+  }
+</style>
 
   <!-- Team End -->
 
-  <!-- Testimonial Start -->
-  <div class="container-fluid testimonial pb-5 " dir="ltr" data-dir="ltr">
-    <div class="container pb-5">
-      <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-        <h2 class="display-4 text-capitalize mb-3 mt-5" data-i18n="testimonial_subtitle">What Our Clients Say</h2>
-      </div>
-      <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.4s">
-        <div class="testimonial-item bg-light p-4">
-          <div class="position-relative">
-            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-            <div class="mb-4 pb-4 border-bottom border-secondary">
-              <p class="mb-0" data-i18n="testimonial_text_1">
-                "Working with this team was a fantastic experience. Their professionalism and dedication exceeded all my
-                expectations."
-              </p>
-            </div>
-            <div class="d-flex align-items-center flex-nowrap">
-              <div class="me-4">
-                <img src="img/testimonial-1.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
-              </div>
-              <div class="d-block">
-                <h4 class="text-dark" data-i18n="client_name_1">Sarah Johnson</h4>
-                <p class="m-0 pb-3" data-i18n="client_profession_1">Marketing Manager</p>
-                <div class="d-flex text-secondary pe-5">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                    class="fas fa-star"></i><i class="fas fa-star text-muted"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial-item bg-light p-4">
-          <div class="position-relative">
-            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-            <div class="mb-4 pb-4 border-bottom border-secondary">
-              <p class="mb-0" data-i18n="testimonial_text_2">
-                "Their expertise helped us launch our project smoothly. Highly recommended for anyone seeking quality
-                and reliability."
-              </p>
-            </div>
-            <div class="d-flex align-items-center flex-nowrap">
-              <div class="me-4">
-                <img src="img/testimonial-2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
-              </div>
-              <div class="d-block">
-                <h4 class="text-dark" data-i18n="client_name_2">Ahmed Al-Masri</h4>
-                <p class="m-0 pb-3" data-i18n="client_profession_2">Entrepreneur</p>
-                <div class="d-flex text-secondary pe-5">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                    class="fas fa-star text-muted"></i><i class="fas fa-star text-muted"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial-item bg-light p-4">
-          <div class="position-relative">
-            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-            <div class="mb-4 pb-4 border-bottom border-secondary">
-              <p class="mb-0" data-i18n="testimonial_text_3">
-                "Excellent customer support and great results. I am very satisfied and will definitely use their
-                services again."
-              </p>
-            </div>
-            <div class="d-flex align-items-center flex-nowrap">
-              <div class="me-4">
-                <img src="img/testimonial-3.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
-              </div>
-              <div class="d-block">
-                <h4 class="text-dark" data-i18n="client_name_3">Fatima Zahra</h4>
-                <p class="m-0 pb-3" data-i18n="client_profession_3">Graphic Designer</p>
-                <div class="d-flex text-secondary pe-5">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                    class="fas fa-star"></i><i class="fas fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Testimonial End -->
 
 
 

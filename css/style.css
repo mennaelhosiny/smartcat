@@ -704,7 +704,13 @@ h1{
     background: var(--bs-white);
     box-shadow: 20px 20px #000e37d1;
     z-index: 3;
-        border-radius: 30px;
+    border-radius: 30px;
+    height: 320px;
+}
+.content-wrapper {
+  max-width: 1450px; /* نفس max-width بتاع container-lg */
+  margin-inline: auto; /* سنتر المحتوى أفقياً */
+  padding-inline: 1rem; /* padding يمين وشمال */
 }
 
 .counter .counter-item .counter-counting {
@@ -1335,7 +1341,7 @@ h1 {
 
 .footer .footer-item a:hover {
     letter-spacing: 1px;
-    color: var(--bs-secondary);
+    color: var(--bs-primary);
 }
 
 .footer .footer-item .footer-btn a,
@@ -1343,12 +1349,12 @@ h1 {
     transition: 0.5s;
 }
 
-.footer .footer-item .footer-btn a:hover {
+/* .footer .footer-item .footer-btn a:hover {
     background: var(--bs-white);
-}
+} */
 
 .footer .footer-item .footer-btn a:hover i {
-    color: var(--bs-primary) !important;
+    color: var(--bs-secondary) !important;
 }
 /*** Footer End ***/
 
