@@ -230,6 +230,8 @@ html[dir="rtl"] .tab-content {
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
     vertical-align: middle;
+    padding: 4px;
+
 }
 
 .navbar .navbar-toggler {
@@ -708,7 +710,6 @@ h1{
     height: 320px;
 }
 .content-wrapper {
-  max-width: 1450px; /* نفس max-width بتاع container-lg */
   margin-inline: auto; /* سنتر المحتوى أفقياً */
   padding-inline: 1rem; /* padding يمين وشمال */
 }
