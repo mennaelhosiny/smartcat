@@ -47,7 +47,7 @@
 
 
         <!-- Navbar & Hero Start -->
-        <div class="container-fluid px-0">
+       <div class="container-fluid px-0">
     <nav class="navbar navbar-expand-lg navbar-dark bg-light px-4 sticky-top">
       <a href="index.html" class="navbar-brand p-0">
         <div>
@@ -71,7 +71,13 @@
                 <!-- القائمة الجانبية -->
                 <div class="col-md-3 bg-light p-3 border-end">
                   <ul class="nav flex-column service-tabs">
-                   
+                    <li class="nav-item mb-2">
+                      
+                      <a class="nav-link " href="project.html" 
+                        data-i18n="services">
+                        Artificial Intelligence & ML 
+                      </a>
+                    </li>
                     <li class="nav-item mb-2">
                       
                       <a class="nav-link " href="erp.html" data-target="#service1"
@@ -199,6 +205,31 @@
       </div>
     </nav>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tabLinks = document.querySelectorAll(".service-tabs .nav-link");
+      const tabPanes = document.querySelectorAll(".tab-pane");
+
+      tabLinks.forEach(link => {
+        link.addEventListener("mouseenter", function (e) {
+          const targetId = link.getAttribute("data-target");
+
+          // إزالة active من جميع العناصر
+          tabLinks.forEach(l => l.classList.remove("active"));
+          tabPanes.forEach(pane => {
+            pane.classList.remove("show", "active");
+          });
+
+          // تفعيل العنصر المستهدف
+          link.classList.add("active");
+          const targetPane = document.querySelector(targetId);
+          if (targetPane) {
+            targetPane.classList.add("show", "active");
+          }
+        });
+      });
+    });
+  </script>
         <!-- Navbar & Hero End -->
 
       
