@@ -1,14 +1,14 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // البيانات من الفورم
-    $name    = htmlspecialchars($_POST['name']);
+    $name    = htmlspecialchars($_POST['subject']);
     $email   = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
     // إعدادات الإيميل
-    $to      = "mrnnaelhosiny3@gmail.com";
+    $to      = "mennaelhosiny3@gmail.com";
     $subject = "رسالة جديدة من سمارت كات";
-    $body    = "الاسم: $name\n";
+    $body    = "الموضوع: $name\n";
     $body   .= "البريد الإلكتروني: $email\n\n";
     $body   .= "الرسالة:\n$message";
 

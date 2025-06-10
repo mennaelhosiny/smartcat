@@ -267,75 +267,91 @@
     <!-- Header End -->
 
     <!-- Projects Start -->
- <div class="container-fluid project py-5">
-  <div class="container py-5">
-    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-      <h2 class="display-4 text-capitalize mb-3" data-i18n="services_section-title">بعض من خدماتنا التقنية</h2>
+<style>
+  .service-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .service-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    height: 250px;
+  }
+
+  .service-card:hover img {
+    transform: scale(1.1);
+  }
+
+  .service-content {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    text-align: center;
+  }
+
+  .service-card:hover .service-content {
+    opacity: 1;
+  }
+</style>
+
+<div class="content-wrapperr py-5">
+  <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+    <h2 class="display-4 text-capitalize mb-3" data-i18n="services_section-title">بعض من خدماتنا التقنية</h2>
+  </div>
+
+  <div class="row g-4">
+    <!-- خدمة 1 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="service-card">
+        <img src="img/ERP.jpg" alt="" data-i18n="[alt]services_section.service1.title" />
+        <div class="service-content">
+          <p class="fs-5 mb-2" data-i18n="services_section-service1-label">أنظمة ERP</p>
+          <a href="erp.html" class="h5 text-white mb-3 d-block" data-i18n="services_section-service1-title">أنظمة تخطيط الموارد المؤسسية</a>
+          <a class="btn btn-primary py-2 px-4" href="erp.html" data-i18n="read_more_btn">اعرف المزيد</a>
+        </div>
+      </div>
     </div>
-    <div class="row g-5">
-      <!-- خدمة 1 -->
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="project-item">
-          <div class="row g-4">
-            <div class="col-md-4">
-              <div class="project-img">
-                <img src="img/9.jpeg" class="img-fluid w-100 pt-3 ps-3" alt="" data-i18n="[alt]services_section.service1.title" />
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="project-content mb-4">
-                <p class="fs-5 text-secondary mb-2" data-i18n="services_section-service1-label">أنظمة ERP</p>
-                <a href="erp.html" class="h4" data-i18n="services_section-service1-title">أنظمة تخطيط الموارد المؤسسية</a>
-              </div>
-              <a class="btn btn-primary py-2 px-4" data-i18n="read_more_btn" href="erp.html">اعرف المزيد</a>
-            </div>
-          </div>
+
+    <!-- خدمة 2 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="service-card">
+        <img src="img/13.jpg" alt="" data-i18n="[alt]services_section.service2.title" />
+        <div class="service-content">
+          <p class="fs-5 mb-2" data-i18n="services_section-service2-label">الذكاء الاصطناعي</p>
+          <a href="ai.html" class="h5 text-white mb-3 d-block" data-i18n="services_section-service2-title">تطوير البرمجيات وحلول الذكاء الاصطناعي</a>
+          <a class="btn btn-primary py-2 px-4" href="ai.html" data-i18n="read_more_btn">اعرف المزيد</a>
         </div>
       </div>
+    </div>
 
-      <!-- خدمة 2 -->
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-        <div class="project-item">
-          <div class="row g-4">
-            <div class="col-md-4">
-              <div class="project-img">
-                <img src="img/10.webp" class="img-fluid w-100 pt-3 ps-3" alt="" data-i18n="[alt]services_section.service2.title" />
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="project-content mb-4">
-                <p class="fs-5 text-secondary mb-2" data-i18n="services_section-service2-label">الذكاء الاصطناعي</p>
-                <a href="ai.html" class="h4" data-i18n="services_section-service2-title">تطوير البرمجيات وحلول الذكاء الاصطناعي</a>
-              </div>
-              <a class="btn btn-primary py-2 px-4" data-i18n="read_more_btn" href="ai.html">اعرف المزيد</a>
-            </div>
-          </div>
+    <!-- خدمة 3 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="service-card">
+        <img src="img/cloud.webp" alt="" data-i18n="[alt]services_section.service3.title" />
+        <div class="service-content">
+          <p class="fs-5 mb-2" data-i18n="services_section-service3-label">الحلول السحابية</p>
+          <a href="cloud.html" class="h5 text-white mb-3 d-block" data-i18n="services_section-service3-title">إدارة البيانات والحلول السحابية</a>
+          <a class="btn btn-primary py-2 px-4" href="cloud.html" data-i18n="read_more_btn">اعرف المزيد</a>
         </div>
       </div>
-
-      <!-- خدمة 3 -->
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="project-item">
-          <div class="row g-4">
-            <div class="col-md-4">
-              <div class="project-img">
-                <img src="img/13.jpg" class="img-fluid w-100 pt-3 ps-3" alt="" data-i18n="[alt]services_section.service3.title" />
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="project-content mb-4">
-                <p class="fs-5 text-secondary mb-2" data-i18n="services_section-service3-label">الحلول السحابية</p>
-                <a href="cloud.html" class="h4" data-i18n="services_section-service3-title">إدارة البيانات والحلول السحابية</a>
-              </div>
-              <a class="btn btn-primary py-2 px-4" data-i18n="read_more_btn" href="cloud.html">اعرف المزيد</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 </div>
+
 
 
     <!-- Projects End -->
