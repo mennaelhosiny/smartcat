@@ -319,8 +319,6 @@
     e.preventDefault();
 
     const formData = new FormData(form);
-
-    // عرض المودال برسالة مبدئية
     feedbackMessage.textContent = 'جاري الإرسال...';
     feedbackModal.show();
 
@@ -331,11 +329,8 @@
       });
 
       const result = await response.text();
-
-      // عرض النتيجة في المودال
       feedbackMessage.textContent = result;
 
-      // ممكن تفرغ الحقول بعد الإرسال:
       if (result.includes('تم إرسال الرسالة')) {
         form.reset();
       }
@@ -345,6 +340,7 @@
     }
   });
 </script>
+
 
   <!-- Contact End -->
 

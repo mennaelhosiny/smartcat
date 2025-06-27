@@ -240,8 +240,8 @@ const translations = {
   "tech_languages": "- Programming Languages: Python, JavaScript, Java, PHP",
   "tech_frameworks": "- Frameworks: React, Angular, Django",
   "tech_cloud": "- Cloud Platforms: Amazon, Google Cloud, Microsoft Azure",
-  "tech_analytics": "- Analytics Tools: Tableau, Power BI, Google Analytics"
-
+  "tech_analytics": "- Analytics Tools: Tableau, Power BI, Google Analytics",
+   trip:"Our Trip"
 
 
 
@@ -387,7 +387,7 @@ const translations = {
     "journey-step8-desc": "توظيف الذكاء الاصطناعي والتعلم الآلي لنمذجة حلول مستدامة.",
     "journey-step9-desc": "حلول ذكية .. لمستقبل مستدام",
 
-
+     trip:"رحلتنا ",
 
     "services_section-title": "بعض من خدماتنا التقنية",
 
